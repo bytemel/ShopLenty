@@ -1,0 +1,92 @@
+#heading1{
+    background-color: #7d00ed;
+    color: #ffffff;
+    text-align: center;
+    font-size: 70px;
+}
+
+#heading2{
+    background-color: #f10022;
+    color: #06f400;
+    text-align: center;
+    font-size: 90px;
+}
+#paragraph1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;}
+.pstyle{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#div1{
+    background-color: #b27c7c;
+    margin: 20px;
+    padding: 20px;
+    color: #f10022;
+    font-weight: lighter;
+    font-family: "Comic Sans MS";
+}
+
+#div2{
+    background-color: #33c8cb;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    color: white;
+}
+
+#div2 img{
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+}
+#div2 p{
+    margin-left: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+#main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#main img{
+    width: 300px;
+    height: 200px;
+}
+#main h1{
+    text-align: center;
+}
+#advertisement{
+    background-color: #f40800;
+    margin-left: 20px;
+    padding: 10px;
+    box-shadow: 8px 4px 8px 2px #fdcb00;
+}
+
+#accounting{
+    background-color: #06f400;
+    margin-left: 20px;
+    padding: 10px;
+    box-shadow: 8px 4px 8px 2px blueviolet;
+}
+
+#payment{
+    background-color: #ff0481;
+    margin-left: 20px;
+    padding: 10px;
+    box-shadow: 8px 4px 8px 2px #2309cd;
+}
+#advertisement:hover, #accounting:hover, #payment:hover{
+    opacity: 0.8;
+    background-color: darkorange;
+}

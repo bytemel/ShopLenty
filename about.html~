@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About - ShopLenty</title>
+  <link rel="icon" href="./assets/search.png">
+  <style>
+    h1{
+      background-color: rebeccapurple;
+      color: white;
+      text-align: center;
+      font-size: 80px;
+      font-weight: bolder;
+    }
+  </style>
+</head>
+<body>
+
+<h1>OUR SHOP LOCATION</h1>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="product.html">Products</a>
+<a href="gallery.html">Gallery</a>
+<a href="list.html">List</a>
+<a href="services.html">Services</a>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, aspernatur eius eveniet ex ipsum mollitia neque officiis, quas quis repellat tempora temporibus ullam, voluptas. Architecto magni odio sunt suscipit voluptatum.</span><span>Adipisci consequuntur laboriosam libero rerum! Atque ducimus earum et excepturi fugit hic iusto minima natus, nostrum officiis, pariatur perferendis placeat rerum saepe similique sunt veniam voluptates! Laudantium minus quo rerum.</span><span>Atque nihil quam reiciendis. Animi corporis cupiditate modi nam, omnis pariatur quia. Delectus impedit ipsa, minima nisi nostrum quis, repellat sint tempora ullam, voluptate voluptates voluptatibus. Accusamus dolorum omnis reiciendis?</span></p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8594839586754!2d36.79367077496555!3d-1.256151498731883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17002dc90869%3A0xe743a176c7687ca0!2sALX%20Kenya%20-%20The%20Piano!5e0!3m2!1sen!2ske!4v1728977167321!5m2!1sen!2ske" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</body>
+</html>

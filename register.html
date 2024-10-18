@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Page - ShopLenty</title>
+    <link rel="icon" href="./assets/membership.png">
+    <link rel="stylesheet" href="./css/register.css">
+
+    <style>
+        body{
+            background-image: url("./assets/watch-3.jpg");
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<header>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="product.html">Products</a>
+<a href="gallery.html">Gallery</a>
+<a href="list.html">List</a>
+<a href="services.html">Services</a>
+<a href="register.html">Register</a>
+</header>
+<br>
+<form   action="">
+    <br>
+    <legend style="font-size:50px; text-align: center">
+        Create An Account
+    </legend>
+    <br><br><br><br>
+    <label for="firstname">First Name :</label>
+    <input type="text" id="firstname" placeholder="Enter First Name" required="required" name="username">
+    <br><br>
+    <label for="surname">Surname :</label>
+    <input type="text" id="surname" placeholder="Enter Surname" required="required" name="surname">
+    <br><br>
+    <label>Choose Gender :</label>
+    <br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <br>
+    <input type="radio" id="no" name="gender" value="female">
+    <label for="female">Prefer Not To Say</label>
+    <br><br>
+    <label>Hobby :</label>
+    <br>
+    <input type="radio" id="chess" name="hobby">
+    <label for="hockey">Chess</label>
+    <br>
+    <input type="radio" id="bike riding" name="hobby">
+    <label for="hockey">Bike Riding</label>
+    <br>
+    <input type="radio" id="hockey" name="hobby">
+    <label for="hockey">Hockey</label>
+    <br><br>
+    <label for="nationality">Select Nationality :</label>
+    <select name="nationality" id="nationality">
+        <option value=""disabled="disabled">--Choose Nationality--</option>
+        <option value="kenyan">Kenyan</option>
+        <option value="nigerian">Nigerian</option>
+        <option value="ghanian">Ghanian</option>
+        <option value="italian">Italian</option>
+        <option value="american">American</option>
+    </select>
+    <br><br>
+    <label for="email">Email Address :</label>
+    <input type="email" id="email" placeholder="abc@gmail.com" required="required" name="">
+    <br><br>
+    <label for="phonenumber">Phone Number :</label>
+    <input type="tel" id="phonenumber" placeholder="e.g 0765 123 456" required="required" name="phonenumber">
+    <br><br>
+
+    <label for="homeaddress">Home Address :</label>
+    <input type="number" id="homeaddress" placeholder="5678" required="required" name="homeaddress">
+    <br><br>
+
+    <label for="password">Password :</label>
+    <input type="password" id="password" placeholder="Enter Password" required="required" name="password">
+    <br><br>
+    <label for="confirmpassword">Confirm Password :</label>
+    <input type="password" id="confirmpassword" placeholder="Confirm Password" required="required" name="confirmpassword">
+    <br><br>
+    <label for="file">Choose File</label>
+    <br>
+    <input type="file" id="file" required="required" name="file">
+    <br><br>
+    <label for="message">Describe Yourself :</label><br>
+    <textarea name="message" id="message" cols="40" rows="5" placeholder="Type Here..."></textarea>
+    <br><br>
+    <button type="submit">Submit</button>
+</form>
+
+<div></div>
+
+
+
+</body>
+</html>
